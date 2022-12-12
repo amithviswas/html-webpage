@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+*{
+    background-color: bisque;
+    text-align: center;
+    background: url(https://cdn.wallpapersafari.com/75/58/gRADqy.jpg);
+}
+
+
+    </style>
+    <head>
+        <title>
+            Form Tag 
+        </title>
+    </head>
+    <body>
+        
+
+        <script>
+            setTimeout(msg,2000)
+            function msg(){
+                alert("Log in/Sign In To Continue")
+            }
+        </script>
+
+
+
+        <h1>Already a User</h1>
+                <button type="button"><a href="form2.html">Login</a></button>
+
+        <h1>New User</h1>
+        <form>
+            <fieldset>
+                <legend>
+                    Sign In
+                </legend><p>
+
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email">
+                    </p>
+
+                    <p>
+
+            <label for="UserName">UserName</label>
+            <input type="text" name="UserName" id="UserName" autofocus="on" placeholder="Enter your username" required ></p>
+                    </p>
+            <p>
+            <label for="Password">Password</label>
+            <input type="password" name="Password"  id="Password" placeholder="Password"  required></p>
+            <p>        </fieldset>
+
+            </p>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="Others">
+            <label for="Others">Others</label>
+            <br><br>
+            
+        </fieldset>
+        
+         <p>
+
+            <fieldset>
+                <legend>Age</legend>
+                <label>Age</label>
+                <input type="number" min="16" max="infinite" step="1">
+</fieldset>
+         </p>
+
+        <br>
+            
+            <button type="submit"><a href="ourwebpage.html">Submit</a></button>
+            
+                <button type="reset">Reset</button>
+                <hr>
+            
+        </form>
+    </body>
+</html>
